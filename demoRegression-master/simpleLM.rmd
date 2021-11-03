@@ -48,3 +48,11 @@ plot(LENGTH~CHEST,data=bears)
 abline(simp)
 summary.lm(simp)
 ```
+
+```{r}
+cor(bears$LENGTH,bears$CHEST)
+```
+
+## Conclusion
+
+Chest is a better predict in length than neck becuase the adjusted r square test shows that it using chest is bigger than the adjusted R squared for the fit using neck.
